@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapleLib", "MapleLib\MapleLib.csproj", "{28AAB36D-942E-4476-A000-0E9DE380F390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{231AB550-C1D3-461C-A013-2678FAAD7739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{46B1E02F-1F20-43BB-97C6-8A021511E528}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Debug|x64.Build.0 = Debug|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Debug|x86.Build.0 = Debug|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Release|x64.ActiveCfg = Release|x64
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Release|x64.Build.0 = Release|x64
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Release|x86.ActiveCfg = Release|x86
+		{28AAB36D-942E-4476-A000-0E9DE380F390}.Release|x86.Build.0 = Release|x86
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Debug|x64.Build.0 = Debug|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Debug|x86.Build.0 = Debug|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Release|x64.ActiveCfg = Release|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Release|x64.Build.0 = Release|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Release|x86.ActiveCfg = Release|Any CPU
+		{231AB550-C1D3-461C-A013-2678FAAD7739}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22AD4825-0442-44AB-9664-EF87337834E1}
+	EndGlobalSection
+EndGlobal
