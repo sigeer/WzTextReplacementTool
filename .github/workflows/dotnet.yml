@@ -44,7 +44,7 @@ jobs:
 
     - name: get latest version
       run: |
-          VERSION=$(grep -oP '<Version>\K[^<]+' Directory.Build.props)
+          VERSION=$(grep -oP '<Version>\K[^<]+' ./ConsoleApp1/ConsoleApp1.csproj)
           echo "VERSION=${VERSION}" >> $GITHUB_ENV
 
     - name: Zip
