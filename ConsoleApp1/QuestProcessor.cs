@@ -66,7 +66,7 @@ namespace ConsoleApp1
                 if (_processItems.Contains(item.Key))
                     continue;
 
-                Image.RemoveProperty(item.Value);
+                Image.RemoveProperty(item.Key);
                 Image.AddProperty(item.Value);
                 _processItems.Add(item.Key);
             }
@@ -101,7 +101,7 @@ namespace ConsoleApp1
 
                 var idx = choices.IndexOf(selected);
                 var img = idx == 0 ? item.Original : item.Newly;
-                Image.RemoveProperty(img);
+                Image.RemoveProperty(key);
                 Image.AddProperty(img);
                 _processItems.Add(key);
             }
@@ -365,7 +365,7 @@ namespace ConsoleApp1
             foreach (var item in allData)
             {
                 var targetItem = context.Image[item];
-                var newItem = newData[item].DeepClone();
+                var newItem = newData[item]?.DeepClone();
 
                 if (targetItem == null && newItem != null)
                 {
